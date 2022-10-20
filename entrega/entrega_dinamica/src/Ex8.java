@@ -23,20 +23,24 @@ public class Ex8 {
 
     public static void main(String[] args) {
 
-        try (Scanner ent = new Scanner(System.in)) {
+        try (Scanner scan = new Scanner(System.in)) {
             String contrario = "";
 
             System.out.println("Digite uma palavra para verificar se é um palíndromo");
-            String nome = ent.nextLine();
+            String nome = scan.nextLine(); // recebo um texto pelo tclado
 
             for (int i = (nome.length() - 1); i >= 0; i--) {
-                contrario = contrario + nome.charAt(i);
+                // converto isso pra vetores com indice progressivo, de limite i(num caractes);
+                contrario = contrario + nome.charAt(i); // não estou familiarizado com esse metodo charAt
+                System.out.println(contrario);
             }
 
-            if (contrario.toLowerCase().equals(nome.toLowerCase())) {
-                System.out.println("Essa palavra é palíndromo :)");
+            if (contrario.toLowerCase().equals(nome.toLowerCase())) // utilizo o metodo equals para comparar objetos e
+                                                                    // me fornecer um boolean
+            {
+                System.out.println("Essa palavra é palíndromo :)");// caso true
             } else {
-                System.out.println("Essa palavra não é palíndromo :(");
+                System.out.println("Essa palavra não é palíndromo :(");// caso false
             }
         }
 
