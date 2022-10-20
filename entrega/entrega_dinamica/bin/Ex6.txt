@@ -10,16 +10,26 @@ Considerar ano com 365 dias e mês com 30 dias
 dia(Real ou double) 
 mes(Real ou doble) 
 ano(Real ou doble) 
-
+total dias(Real ou double)
+data atual (Real ou double) **/**/****
+ totalano(Real ou doble) 
+ totalmes(Real ou doble) 
+ totaldia(Real ou doble) 
 
 
 /input
 *ler dia, mes, ano
 
 /calculo
-*area ← base * altura
+*totalano = (anoatual-ano)*365
+*totalmes = (mesatual-mes)*30
+*totaladia = (diaatual-dia)
+
+total dias = totalano+totalmes+totaldia
 
 /output
-*mes "Area do retãngulo é" + area
+"Sua idade corresponde a " + total dias + "dias" 
 
-/fim_se
+/fim
+
+
