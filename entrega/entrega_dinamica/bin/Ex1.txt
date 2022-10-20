@@ -1,0 +1,29 @@
+/*
+Implemente o seguinte algoritmo em alguma linguagem de programação e
+realize os testes de mesa, apresentando as mensagens de saída na tabela 
+abaixo:
+
+*ler a, b, c
+*media ← (a+b+c)/3
+*se media>=7 então
+*mens ← ‘Aprovado’
+*senão
+*se media>=5 e media<7
+*mens ← ‘Recuperação’
+*fim_se
+*se media<5 então
+*mens ← ‘Reprovado’
+*fim_se
+
+/*TESte de MesA
+
+
+ * input* [A,B,C] = mensagem
+ 
+ * input1 [2,4,6] = Reprovado
+ * input2 [4,8,0] = Reprovado
+ * input3 [9,3.5,8] = Aprovado
+ * input4 [4,7,6] = Recuperação
+ * input5 [5,5.5,8] = Recuperação
+ 
+ */

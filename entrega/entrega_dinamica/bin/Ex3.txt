@@ -1,0 +1,19 @@
+ At the beginning of January 2003, Jill invested money in an account that 
+collected interest, compounding monthly. Assume the annual percentage rate of
+interest remainedconstant. What is the total amount she has invested after
+seven years?
+
+(1) her initial investment was $15,000
+(2) In April, 2004, she earned $38.93 in interest
+
+A. Statement 1 ALONE is sufficient to answer the question, but statement 2 alone
+is NOT sufficient.
+B. Statement 2 ALONE is sufficient to answer the question, but statement 1 alone
+is NOT sufficient.
+C. BOTH statements 1 and 2 TOGETHER are sufficient to answer the question,
+but NEITHER statement ALONE is sufficient.
+D. Each statement ALONE is sufficient to answer the question.
+E. Statement 1 and 2 TOGETHER are NOT sufficient to answer the question.
+
+Resposta Correta " C "
+

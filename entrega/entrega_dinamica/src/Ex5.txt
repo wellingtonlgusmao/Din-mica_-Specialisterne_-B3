@@ -1,0 +1,22 @@
+Escreva um algoritmo para ler as dimensões de um retângulo (base e altura), 
+calcular e escrever a área do retângulo. 
+
+
+// Algoritimo "Área do retângulo"
+
+/inicio
+/variaveis 
+base (Real ou double)
+altura(Real ou doble) 
+area(Real ou doble) 
+
+/input
+*ler base, altura
+
+/calculo
+*area ← base * altura
+
+/output
+*mes "Area do retãngulo é" + area
+
+/fim_se

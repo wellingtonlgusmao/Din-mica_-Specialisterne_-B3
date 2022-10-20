@@ -1,0 +1,6 @@
+. Defina constante e variável e dê exemplos.
+
+Podemos definir constante com um "dado" imutavel, podendo esse dado ser um número , uma informação de texto e objeto. 
+Caracterizando por permanecer inalterado; imutavel no tempo. 
+Quanto a variavel, também se trata um dado, que pode usumir diferentes "tipos", porém seu conteudo tende a variar no tempo
+pensando especificamente em programação essa variavel, pode ser gerada por input do usuario e ou do sistema.
